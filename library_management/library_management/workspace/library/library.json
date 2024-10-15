@@ -1,0 +1,140 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"kz3hamCtrP\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library</span>\",\"col\":12}},{\"id\":\"oREcbBejDB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Article\",\"col\":3}},{\"id\":\"7jGRcg6jYT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Member\",\"col\":3}},{\"id\":\"SlFnqCsw7h\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Library Settings\",\"col\":3}},{\"id\":\"Hw1yKZPOLZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Library Membership\",\"col\":3}},{\"id\":\"XreUfYUPIf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Course\",\"col\":3}},{\"id\":\"UsE03lc722\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Course Topics\",\"col\":3}},{\"id\":\"q9SQTNKf_F\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Issue/Receipt\",\"col\":3}},{\"id\":\"K3BJYQRmQo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Products\",\"col\":3}},{\"id\":\"RJUbgQkB7R\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2024-08-14 15:16:40.878671",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "retail",
+ "idx": 2,
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Library",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Issue/Receipt",
+   "link_count": 0,
+   "link_to": "Library Transtion",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Product drawing list",
+   "link_count": 0,
+   "link_to": "Product List Script Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Courses",
+   "link_count": 0,
+   "link_to": "Topic Video Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-10-03 21:48:04.760628",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Product Drawing Viewer"
+  },
+  {
+   "role": "Product Document Uploader"
+  }
+ ],
+ "sequence_id": 7.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Course",
+   "link_to": "Main Topic",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Course Topics",
+   "link_to": "Topic",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Issue/Receipt",
+   "link_to": "Library Transtion",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Article",
+   "link_to": "Article",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Products",
+   "link_to": "products",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Member",
+   "link_to": "Library Member",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Library Settings",
+   "link_to": "Library Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Library Membership",
+   "link_to": "Library Membership",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Library"
+}
